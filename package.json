@@ -1,0 +1,15 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://twalla13.github.io/portfolio.github.io/",
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  }
+}
