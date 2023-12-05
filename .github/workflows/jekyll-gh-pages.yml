@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main  # Set this to the branch you want to trigger the deployment
+      - gh-pages
 
 jobs:
   build:
